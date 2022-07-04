@@ -5,9 +5,9 @@ body {
 main {
     background-color: rgb(255, 255, 255);
     width: 400px;
-    height: 280px;
+    height: 300px;
     margin: auto;
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
 }
 img#logo-receita {
@@ -51,5 +51,27 @@ input#calcular {
 div.resultado{
     padding: 10px 0px 10px 0px;
     margin: 10px 0px 10px 0px;
+    font-weight: bolder;
+}
+p#bruto{
+    font-size: 15pt;
+    font-weight: bolder;
+}
+input#pegarSal{
+    width: 150px;
+    height: 20px;
+    border-radius: 0px;
+}
+input#pegarSal:hover{
+    background-color: #90ee9098;
+}
+input#calcular{
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 3px;
+}
+input#calcular:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
