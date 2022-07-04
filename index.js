@@ -1,3 +1,4 @@
+window.alert("What's happening right here ?")
 function calcular(){
     var INSS = 0;
     var Liquido = 0; // printar o liquido apenas no final >> Liquido = Sal - INSS - IR ; //
@@ -27,7 +28,7 @@ function calcular(){
         INSS = (INSS * 0.09) + faixa1;
         printINSS.innerHTML = ` INSS : R$ ${INSS.toLocaleString()}` 
         printINSS.style.backgroundColor = '#ff6961'
-    }else if(Sal <= 3641.03){
+    }else if(Sal <= 3641.03){ // problem with this part
         INSS = Sal - 2427.35;
         INSS = (INSS * 0.12) + faixa1 + faxa2
         printINSS.innerHTML = ` INSS : R$ ${INSS.toLocaleString()}`
