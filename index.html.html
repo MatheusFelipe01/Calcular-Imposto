@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular INSS & IR</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <a href="https://www.gov.br/receitafederal/pt-br" target="_blank"><img src="./images/receita-federal-logo.png" id="logo-receita" alt="Logo Receita Federal do Brasil"></a>
+        <h1> CALCULAR INSS & IR !!</h1>
+        <h2> A maneira mais fácil de calcular o seu INSS e Imposto de renda.</h2>
+    </header>
+    <main>
+        <section>
+            <p> Qual seu salário bruto ?</p>
+            <input type="number" name="" id="pegarSal">
+        </section>  
+        <input type="button" value="Calcular" id="calcular" onclick="calcular()">
+        <section>
+            <div class="resultado" id="inss"> INSS : R$ </div>
+            <div class="resultado" id="ir"> IR : R$ </div>
+            <div class="resultado" id="liquido"> Liquido : R$ </div>
+
+        </section>
+    </main>
+    <footer>
+        <p> &copy; All rights reservered | by <a href="https://www.instagram.com/o.maaaath/" target="_blank"> Matheus Felipe </a></p>
+    </footer>
+    
+</body>
+</html>
